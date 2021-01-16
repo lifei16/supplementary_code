@@ -389,7 +389,7 @@
   			m=qcqp.get_m();
   			x0.resize(n,0);
   			y0.resize(m,0);
-  			for (int j = 0; j < n; j++)  {x0[j]= 0; }
+  			for (int j = 0; j < n; j++)  {x0[j]= 1; }
   			val_tau= floor(sqrt(m+ 1));;
   			tau_convert<<val_tau;
   			tau_str=tau_convert.str();
