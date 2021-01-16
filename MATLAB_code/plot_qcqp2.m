@@ -17,7 +17,7 @@ s1= size(qcqp1,1);
 s2= size(qcqp2,1);
 s3= size(qcqp3,1);
 s4= size(qcqp4,1);
-plot(qcqp2(1:3:s2,2),log10(max( qcqp2(1:3:s2,4), (abs(qcqp2(1:3:s2,3)- f_opt2)/f_opt2))),'-->','LineWidth',2);
+plot(qcqp2(1:4:s2,2),log10(max( qcqp2(1:4:s2,4), (abs(qcqp2(1:4:s2,3)- f_opt2)/f_opt2))),'-->','LineWidth',2);
 
 hold on;
 plot(t2,-8,'r-pentagram','markersize',20);
