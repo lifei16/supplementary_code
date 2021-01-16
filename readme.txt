@@ -600,7 +600,7 @@ To reproduce Figure 6 in our paper, do:
 >> g++ -o main main.cpp -lgsl -lgslcblas
 >> ./main 5 b qcqp1 1 1 200 10 100 1 50 ; ./main 5 b qcqp2 1 1 1000 20 100 1 50 ; ./main 5 b qcqp3 1 1 200 30 10 1 50 ; ./main 5 b qcqp4 1 1 190 500 1 1000 50
 
-This should take roughly 10+20+30+200=260 seconds. The results are saved in the folder results/. In the output file, the second column is the running time; the third column is the objective value; and the forth column is the infeasibility. 
+This should take roughly 10+20+30+500=560 seconds. The results are saved in the folder results/. In the output file, the second column is the running time; the third column is the objective value; and the forth column is the infeasibility. 
 
 Then run the following commands to generate the plot from the realists.
 
