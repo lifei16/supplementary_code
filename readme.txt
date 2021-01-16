@@ -598,7 +598,7 @@ To reproduce Figure 6 in our paper, do:
 >> cd PUT_PATH_TO_ROOT_WHERE_THIS_README_FILE_IS
 >> cd IPALM
 >> g++ -o main main.cpp -lgsl -lgslcblas
->> ./main 5 b qcqp1 1 1 200 10 1 100 50 ; ./main 5 b qcqp2 1 1 170 20 10 3 50 ; ./main 5 b qcqp3 1 1 250 30 1 800 50 ; ./main 5 b qcqp4 1 1 190 200 1 1000 50
+>> ./main 5 b qcqp1 1 1 200 10 1 100 50 ; ./main 5 b qcqp2 1 1 170 20 10 3 50 ; ./main 5 b qcqp3 1 1 250 30 1 800 50 ; ./main 5 b qcqp4 1 1 190 500 1 1000 50
 
 This should take roughly 10+20+30+200=260 seconds. The results are saved in the folder results/. In the output file, the second column is the running time; the third column is the objective value; and the forth column is the infeasibility. 
 
