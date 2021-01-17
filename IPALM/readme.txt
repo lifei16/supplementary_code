@@ -47,7 +47,7 @@ ALM_APPROX.h
 =========
 
 
-This class implements the method IPALM_APPROX, in our paper.
+This class implements the method IPALM-APPROX, in our paper.
 
 
 =========
@@ -55,7 +55,7 @@ ALM_L_Katyusha.h
 =========
 
 
-This class implements the method IPALM_Katyusha for general composite problem, in our paper.
+This class implements the method IPALM-Katyusha for general composite problem, in our paper.
 
 
 =========
@@ -63,7 +63,7 @@ ALM_Katyusha.h
 =========
 
 
-This class implements the method IPALM_Katyusha for problem composed with linear operator, in our paper.
+This class implements the method IPALM-Katyusha for problem composed with linear operator, in our paper.
 
 
 
@@ -82,7 +82,7 @@ ALM_I_APPROX.h
 =========
 
 
-This class implements the method IPALM_APPROX, in our paper, for problem with equality constraints.
+This class implements the method IPALM-APPROX, in our paper, for problem with equality constraints.
 
 
 
@@ -118,7 +118,7 @@ This class implements the method SMART_CD, in the paper << Smooth primal-dual co
 Basis_pursuit_a.h
 =========
 
-This class inherits the class ALM_I_APPROX. It solves basis pursuit problem by the method IPALM_APPROX.
+This class inherits the class ALM_I_APPROX. It solves basis pursuit problem by the method IPALM-APPROX.
 
 
 
@@ -150,14 +150,14 @@ This class inherits the class LADMM. It solves basis pursuit problem by the meth
 Fused_lasso_a.h
 =========
 
-This class inherits the class ALM_APPROX. It solves fused lasso problem by the method IPALM_APPROX.
+This class inherits the class ALM_APPROX. It solves fused lasso problem by the method IPALM-APPROX.
 
 
 =========
 Fused_lasso_b.h
 =========
 
-This class inherits the class ALM_Katyusha. It solves fused lasso problem by the method IPALM_Katyusha.
+This class inherits the class ALM_Katyusha. It solves fused lasso problem by the method IPALM-Katyusha.
 
 
 =========
@@ -187,7 +187,7 @@ This class inherits the class LADMM. It solves fused lasso problem by the method
 L_1_Lasso_a.h
 =========
 
-This class inherits the class ALM_APPROX. It solves Least absolute deviation problem by the method IPALM_APPROX.
+This class inherits the class ALM_APPROX. It solves Least absolute deviation problem by the method IPALM-APPROX.
 
 
 
@@ -217,14 +217,14 @@ This class inherits the class LADMM. It solves Least absolute deviation problem 
 SMSVM_a.h
 =========
 
-This class inherits the class ALM_APPROX. It solves soft margin support vector machine problem by the method IPALM_APPROX.
+This class inherits the class ALM_APPROX. It solves soft margin support vector machine problem by the method IPALM-APPROX.
 
 
 =========
 SMSVM_b.h
 =========
 
-This class inherits the class ALM_Katyusha. It solves soft margin support vector machine problem by the method IPALM_Katyusha.
+This class inherits the class ALM_Katyusha. It solves soft margin support vector machine problem by the method IPALM-Katyusha.
 
 
 =========
@@ -253,6 +253,6 @@ This class inherits the class LADMM. It solves soft margin support vector machin
 QCQP_b.h
 =========
 
-This class inherits the class ALM_L_Katyusha. It solves quadratically constrained quadratic program by the method IPALM_Katyusha.
+This class inherits the class ALM_L_Katyusha. It solves quadratically constrained quadratic program by the method IPALM-Katyusha.
 
 
