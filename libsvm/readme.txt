@@ -22,4 +22,4 @@ Second,
 >> run svm_compare.m
 For different datasets, just change the dataset name to define [b, A], [b2, A2] in the 1st and 2nd line, and x in the 18th line.
 
-In the output variables, "acc" is the accuracy of LIBSVM and "accuracy" is the accuracy of IPALM_Katyuhsa.
+In the output variables, "acc" is the accuracy of LIBSVM and "accuracy" is the accuracy of IPALM-Katyuhsa.
