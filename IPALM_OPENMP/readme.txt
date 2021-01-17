@@ -17,7 +17,7 @@ For the following three problems:
 
 Parallel implementation is useful for speedup the following three algorithm:
 
-b. IPALM_Katyusha
+b. IPALM-Katyusha
 d. ASGARD_DL
 e. LADMM
 
