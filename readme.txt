@@ -35,8 +35,8 @@ More detailed description about the problem types and algorithms can be found in
 
 - The folder IPALM/ contains the C++ code implementing the following five algorithms:
 
-a. IPALM_APPROX
-b. IPALM_Katyusha
+a. IPALM-APPROX
+b. IPALM-Katyusha
 c. SMART_CD
 d. ASGARD_DL
 e. LADMM
