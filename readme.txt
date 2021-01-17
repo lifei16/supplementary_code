@@ -83,7 +83,7 @@ arg10: (optional): p_N_2 (print or compute every p_N_2 iterations), default valu
 
 ===================================================
 
-For example, to solve the least absolute deviation problem with lambda1=0.01, lambda3= 1 in the paper, using IPALM_APPROX, beta_0= 1, epsilon_0= 100, p_N_2= 100, do: 
+For example, to solve the least absolute deviation problem with lambda1=0.01, lambda3= 1 in the paper, using IPALM-APPROX, beta_0= 1, epsilon_0= 100, p_N_2= 100, do: 
 
 >>./main 2 a news20scale2 0.01 1 100000 100 1 100 100 
 
